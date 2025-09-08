@@ -5,8 +5,8 @@ status: open
 depends_on:
   - UNK-BIZ-01
   - UNK-ICP-01
-  - UNK-MRK-INT-01
-  - UNK-MRK-TR-01
+  - UNK-MRKINT-01
+  - UNK-MRKTR-01
   - UNK-IND-01
   - UNK-ROLE-01
   - UNK-ROLE-02

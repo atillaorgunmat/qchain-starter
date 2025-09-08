@@ -9,6 +9,8 @@ nodes:
 - UNK-MKT-01
 - UNK-MKT-02
 - UNK-MKT-03
+- UNK-MRKINT-01
+- UNK-MRKTR-01
 - UNK-OPS-02
 - UNK-PGM-01
 - UNK-PLF-01
@@ -43,8 +45,8 @@ edges:
     - UNK-MET-01
     - UNK-MKT-02
     - UNK-MKT-03
-    - UNK-MRK-INT-01
-    - UNK-MRK-TR-01
+    - UNK-MRKINT-01
+    - UNK-MRKTR-01
     - UNK-OPS-02
     - UNK-PLF-01
     - UNK-ROLE-01
@@ -57,6 +59,12 @@ edges:
     depends_on:
     - UNK-MKT-02
     - UNK-ROLE-01
+  UNK-MRKINT-01:
+    depends_on:
+    - UNK-BIZ-01
+  UNK-MRKTR-01:
+    depends_on:
+    - UNK-BIZ-01
   UNK-OPS-02:
     depends_on:
     - UNK-ROLE-02
@@ -65,8 +73,8 @@ edges:
     - UNK-BIZ-01
     - UNK-ICP-01
     - UNK-IND-01
-    - UNK-MRK-INT-01
-    - UNK-MRK-TR-01
+    - UNK-MRKINT-01
+    - UNK-MRKTR-01
     - UNK-OPS-02
     - UNK-ROLE-01
     - UNK-ROLE-02

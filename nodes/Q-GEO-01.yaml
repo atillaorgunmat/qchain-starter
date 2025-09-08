@@ -4,6 +4,6 @@ owners: [Atilla]
 agenda: now
 priority: P1
 irreversibility: Low
-questions: [UNK-MRK-INT-01, UNK-MRK-TR-01]
+questions: [UNK-MRKINT-01, UNK-MRKTR-01]
 notes:
   - provenance: created 2025-09-08
