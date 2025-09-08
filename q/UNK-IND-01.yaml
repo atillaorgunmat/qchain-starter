@@ -1,0 +1,12 @@
+id: UNK-IND-01
+owner_node: Q-IND-01
+title: Industry baseline (unknown-unknowns)
+status: open
+depends_on: []
+assumptions: []
+acceptance:
+  - ≤2-page primer: glossary, 3 risks, 3 opportunities.
+failure_modes:
+  - Analysis paralysis; non-actionable findings.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md

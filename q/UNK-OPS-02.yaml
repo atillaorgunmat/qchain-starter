@@ -1,0 +1,12 @@
+id: UNK-OPS-02
+owner_node: Q-PGM-01
+title: End-to-end workflow (stages, tools, gates)
+status: open
+depends_on: [UNK-ROLE-02]
+assumptions: []
+acceptance:
+  - Stage map; toolchain; quality gates; SLAs.
+failure_modes:
+  - Missed SLAs; uncontrolled scope.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md

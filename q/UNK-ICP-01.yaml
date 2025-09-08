@@ -1,0 +1,14 @@
+id: UNK-ICP-01
+owner_node: Q-ICP-01
+title: Ideal Customer Profile (buyer/user) & value propositions
+status: open
+depends_on: [UNK-BIZ-01]
+assumptions:
+  - Users 4–6; buyers include parents/brands; TikTok excluded in cycle-1.
+acceptance:
+  - Segment cards (buyer & user), jobs/pains, value props, proof points.
+failure_modes:
+  - Overbroad ICP; weak buyer economics.
+doc_refs:
+  - attachments/needs/2025-09-08_notes.txt
+  - docs/refs/2025-09-08_clarifications.md

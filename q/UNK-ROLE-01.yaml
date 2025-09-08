@@ -1,0 +1,13 @@
+id: UNK-ROLE-01
+owner_node: Q-PGM-01
+title: Atilla role boundary (scope, responsibilities, decision rights)
+status: open
+depends_on: [UNK-BIZ-01]
+assumptions:
+  - Atilla leads corporate meeting planning; timing TBD.
+acceptance:
+  - Role charter approved; interfaces listed.
+failure_modes:
+  - Decision bottlenecks; unclear accountability.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md

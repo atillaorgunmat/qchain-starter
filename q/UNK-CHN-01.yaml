@@ -1,0 +1,14 @@
+id: UNK-CHN-01
+owner_node: Q-CHN-01
+title: Channel & release setup for September
+status: open
+depends_on: [UNK-PLF-01, UNK-COM-01]
+assumptions:
+  - Corporate 'melomira' YouTube; weekly posting through end-September.
+acceptance:
+  - Channel branded; 3-week calendar; first 2 uploads scheduled.
+failure_modes:
+  - Hygiene gaps; cadence missed; brand-safety issues.
+doc_refs:
+  - attachments/needs/2025-09-08_chat_raw.txt
+  - attachments/needs/2025-09-08_notes.txt

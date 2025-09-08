@@ -1,0 +1,30 @@
+id: UNK-MKT-01
+owner_node: Q-MKT-01
+title: Minimal GTM + partnership funnel for first collaboration
+status: open
+depends_on:
+  - UNK-BIZ-01
+  - UNK-ICP-01
+  - UNK-MRK-INT-01
+  - UNK-MRK-TR-01
+  - UNK-IND-01
+  - UNK-ROLE-01
+  - UNK-ROLE-02
+  - UNK-OPS-02
+  - UNK-COM-01
+  - UNK-CNT-01
+  - UNK-CHN-01
+  - UNK-MKT-02
+  - UNK-MKT-03
+  - UNK-PLF-01
+  - UNK-MET-01
+assumptions:
+  - Outcome can be signed deal or pilot; focus is minimum viable funnel and clarity of asks.
+acceptance:
+  - Documented funnel with stages/owners; materials list; risks & mitigations.
+failure_modes:
+  - Funnel undefined; misaligned assets; timeline slippage.
+doc_refs:
+  - attachments/needs/2025-09-08_chat_raw.txt
+  - attachments/needs/2025-09-08_notes.txt
+  - docs/refs/2025-09-08_clarifications.md

@@ -1,0 +1,13 @@
+id: UNK-COM-01
+owner_node: Q-COM-01
+title: Audience & positioning (cycle-1)
+status: open
+depends_on: [UNK-BIZ-01, UNK-ICP-01]
+assumptions:
+  - Primary age 4–6; 3–6 considered.
+acceptance:
+  - One-page positioning tied to initial pilots.
+failure_modes:
+  - Audience too broad; ignores buyer (parents/brands).
+doc_refs:
+  - attachments/needs/2025-09-08_notes.txt

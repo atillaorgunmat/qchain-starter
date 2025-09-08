@@ -1,0 +1,9 @@
+id: Q-PGM-01
+title: Program & Governance
+owners: [Atilla, Seren]
+agenda: now
+priority: P0
+irreversibility: Med
+questions: [UNK-PGM-01, UNK-ROLE-01, UNK-ROLE-02, UNK-OPS-02]
+notes:
+  - provenance: created from attachments + clarifications on 2025-09-08
