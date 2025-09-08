@@ -1,0 +1,34 @@
+id: Q-XXXX-01
+title: <short title>
+type: <free-text>
+decision_why: <one line>
+scope_in: []
+scope_out: []
+owner: <name-or-role>
+status: open
+priority: P1
+review_cadence: weekly
+irreversibility: medium
+risk_notes: []
+
+unknowns:
+  - id: UNK-XXXX01-01
+    text: <atomic question?>
+    status: open
+    assumptions: []
+    failure_modes: []
+    acceptance: <one line>
+    doc_refs:
+      - ref: docs/<file>.md#Section
+        status: placeholder
+        note: <purpose>
+    depends_on: []
+    informs: []
+    notes: []
+
+node_edges:
+  blocks: []
+  informs: []
+
+kpi_link: []
+notes: []

@@ -1,0 +1,12 @@
+id: UNK-MRKTR-01
+owner_node: Q-GEO-01
+title: Turkey-specific needs & near-term plan
+status: open
+depends_on: [UNK-BIZ-01]
+assumptions: []
+acceptance:
+  - 1-pager: decision-makers, distribution reality, brand landscape, path for cycle-1.
+failure_modes:
+  - Misread local market; wrong decision-maker targeting.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md

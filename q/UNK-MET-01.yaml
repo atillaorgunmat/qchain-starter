@@ -1,0 +1,13 @@
+id: UNK-MET-01
+owner_node: Q-MET-01
+title: Early-cycle measurement & acceptance metrics
+status: open
+depends_on: [UNK-BIZ-01]
+assumptions:
+  - Early success measured by governance/throughput (meetings, pilots, cadence) over vanity views.
+acceptance:
+  - KPI set with dates (e.g., ≥3 warm intros, ≥2 meetings, ≥1 pilot MoU; ≥3 weekly posts) aligned to BIZ priorities.
+failure_modes:
+  - Vanity metrics; missing deadlines.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md

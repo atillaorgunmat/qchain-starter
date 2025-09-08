@@ -1,0 +1,13 @@
+id: UNK-PLF-01
+owner_node: Q-PLF-01
+title: Platform constraints for early cycle
+status: open
+depends_on: []
+assumptions:
+  - TikTok excluded; YouTube/Facebook considered.
+acceptance:
+  - Platform checklist (allowed/blocked) and asset spec sheet approved.
+failure_modes:
+  - Policy surprises; format/ratio mismatches.
+doc_refs:
+  - attachments/needs/2025-09-08_notes.txt

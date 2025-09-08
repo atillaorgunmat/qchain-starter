@@ -1,0 +1,14 @@
+id: UNK-CNT-01
+owner_node: Q-CNT-01
+title: Pilot content slate for pitching
+status: open
+depends_on: [UNK-COM-01]
+assumptions:
+  - 4 unlisted videos exist; astronaut theme intended; Alisha pilot clip exists.
+acceptance:
+  - 2–3 ready-to-show pilots with thumbnails/loglines/durations.
+failure_modes:
+  - Pilots misaligned with brand expectations; over-scoped for team time.
+doc_refs:
+  - attachments/needs/2025-09-08_chat_raw.txt
+  - attachments/needs/2025-09-08_notes.txt

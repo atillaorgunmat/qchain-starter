@@ -1,0 +1,12 @@
+id: UNK-ROLE-02
+owner_node: Q-PGM-01
+title: Team interfaces & RACI
+status: open
+depends_on: [UNK-ROLE-01]
+assumptions: []
+acceptance:
+  - RACI published; approval lanes; escalation path.
+failure_modes:
+  - Rework; blocked handoffs.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md

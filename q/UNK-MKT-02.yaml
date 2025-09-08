@@ -1,0 +1,14 @@
+id: UNK-MKT-02
+owner_node: Q-MKT-01
+title: Brand prioritization & value propositions
+status: open
+depends_on: [UNK-COM-01, UNK-ICP-01]
+assumptions:
+  - Ozmo, Bambala, Ebebek are candidates; priority not yet decided.
+acceptance:
+  - Shortlist (3–5); per-brand 1-pagers (value prop, pilot idea, next ask).
+failure_modes:
+  - Wrong ICP order; unclear deliverables/pricing.
+doc_refs:
+  - attachments/needs/2025-09-08_notes.txt
+  - docs/refs/2025-09-08_clarifications.md

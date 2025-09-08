@@ -1,0 +1,86 @@
+nodes:
+- UNK-BIZ-01
+- UNK-CHN-01
+- UNK-CNT-01
+- UNK-COM-01
+- UNK-ICP-01
+- UNK-IND-01
+- UNK-MET-01
+- UNK-MKT-01
+- UNK-MKT-02
+- UNK-MKT-03
+- UNK-MRKINT-01
+- UNK-MRKTR-01
+- UNK-OPS-02
+- UNK-PGM-01
+- UNK-PLF-01
+- UNK-ROLE-01
+- UNK-ROLE-02
+edges:
+  UNK-CHN-01:
+    depends_on:
+    - UNK-COM-01
+    - UNK-PLF-01
+  UNK-CNT-01:
+    depends_on:
+    - UNK-COM-01
+  UNK-COM-01:
+    depends_on:
+    - UNK-BIZ-01
+    - UNK-ICP-01
+  UNK-ICP-01:
+    depends_on:
+    - UNK-BIZ-01
+  UNK-MET-01:
+    depends_on:
+    - UNK-BIZ-01
+  UNK-MKT-01:
+    depends_on:
+    - UNK-BIZ-01
+    - UNK-CHN-01
+    - UNK-CNT-01
+    - UNK-COM-01
+    - UNK-ICP-01
+    - UNK-IND-01
+    - UNK-MET-01
+    - UNK-MKT-02
+    - UNK-MKT-03
+    - UNK-MRKINT-01
+    - UNK-MRKTR-01
+    - UNK-OPS-02
+    - UNK-PLF-01
+    - UNK-ROLE-01
+    - UNK-ROLE-02
+  UNK-MKT-02:
+    depends_on:
+    - UNK-COM-01
+    - UNK-ICP-01
+  UNK-MKT-03:
+    depends_on:
+    - UNK-MKT-02
+    - UNK-ROLE-01
+  UNK-MRKINT-01:
+    depends_on:
+    - UNK-BIZ-01
+  UNK-MRKTR-01:
+    depends_on:
+    - UNK-BIZ-01
+  UNK-OPS-02:
+    depends_on:
+    - UNK-ROLE-02
+  UNK-PGM-01:
+    depends_on:
+    - UNK-BIZ-01
+    - UNK-ICP-01
+    - UNK-IND-01
+    - UNK-MRKINT-01
+    - UNK-MRKTR-01
+    - UNK-OPS-02
+    - UNK-ROLE-01
+    - UNK-ROLE-02
+  UNK-ROLE-01:
+    depends_on:
+    - UNK-BIZ-01
+  UNK-ROLE-02:
+    depends_on:
+    - UNK-ROLE-01

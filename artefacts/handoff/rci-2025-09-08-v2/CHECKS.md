@@ -1,0 +1,4 @@
+- [ ] Owners per node confirmed (Atilla/Seren/Digital Marketer/Ege/Tuna).
+- [ ] Agendas: Q-PGM/Q-BIZ/Q-ICP/Q-CHN/Q-CNT now; Q-MKT next.
+- [ ] Graph renders without cycles; edges match per-question depends_on.
+- [ ] Clarifications doc present and linked in doc_refs.

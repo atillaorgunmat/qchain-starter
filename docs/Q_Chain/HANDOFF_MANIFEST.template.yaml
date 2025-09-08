@@ -1,0 +1,15 @@
+pack_id: 2025-09-XX-XXXX
+goal: "<decision needed from PRO>"
+why_now: "<why this matters now>"
+upload_exactly:
+  - path: q/Q-XXX-01.yaml
+  - path: docs/Q_Chain/PROJECT_INSTRUCTIONS_BASE.md
+    sections: ["Node sufficiency","Linking model","Issues & AGENDA"]
+  - path: docs/Q_Chain/PROJECT_PROFILE_OVERLAY.md
+    sections: ["lanes","cadence","policy"]
+context_minisummaries:
+  - "<2–3 decisive bullets>"
+atomic_PRO_questions:
+  - "<atomic question ending with ? >"
+acceptance:
+  - "PRO returns: capsule scaffold incl. assumptions/failure/doc_refs, cleaned links (depends_on), formatting-only diffs, gh issue lines, AGENDA/NOTES text"

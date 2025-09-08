@@ -1,0 +1,14 @@
+id: UNK-BIZ-01
+owner_node: Q-BIZ-01
+title: Business needs & near-term priorities
+status: open
+depends_on: []
+assumptions:
+  - Brand collaborations likely primary revenue path; YouTube September intent.
+acceptance:
+  - One-pager with 90-day objectives, constraints, must-haves (approved by Seren+Atilla).
+failure_modes:
+  - Misaligned plan vs constraints; missing must-haves.
+doc_refs:
+  - attachments/needs/2025-09-08_chat_raw.txt
+  - attachments/needs/2025-09-08_notes.txt

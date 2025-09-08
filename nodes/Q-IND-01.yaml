@@ -1,0 +1,9 @@
+id: Q-IND-01
+title: Industry Baseline
+owners: [Atilla]
+agenda: next
+priority: P2
+irreversibility: Low
+questions: [UNK-IND-01]
+notes:
+  - provenance: created 2025-09-08

@@ -1,0 +1,17 @@
+id: UNK-PGM-01
+owner_node: Q-PGM-01
+title: Governance & question chain to steer cycle-1
+status: open
+depends_on: [UNK-BIZ-01, UNK-ICP-01, UNK-MRKINT-01, UNK-MRKTR-01, UNK-IND-01, UNK-ROLE-01, UNK-ROLE-02, UNK-OPS-02]
+assumptions:
+  - Cycle-1 outcome not fixed (contract vs pilot).
+acceptance:
+  - Chain committed; owners & decision rights recorded.
+  - RACI & workflow drafts linked.
+  - Gate list documented (what must be resolved before outreach scaling).
+failure_modes:
+  - Governance unclear; chain misaligned to business needs.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md
+  - attachments/needs/2025-09-08_chat_raw.txt
+  - attachments/needs/2025-09-08_notes.txt

@@ -1,0 +1,12 @@
+id: UNK-MRKINT-01
+owner_node: Q-GEO-01
+title: International market needs & implications
+status: open
+depends_on: [UNK-BIZ-01]
+assumptions: []
+acceptance:
+  - 1-pager: target geos, language/brand fit, regulatory notes, cycle-1 go/no-go.
+failure_modes:
+  - Diffuse geo focus; missed constraints.
+doc_refs:
+  - docs/refs/2025-09-08_clarifications.md
