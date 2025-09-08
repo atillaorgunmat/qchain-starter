@@ -1,0 +1,22 @@
+id: Q-XXX-01
+title: <short title>
+type: <POL|REV|BD|PLAT|WF|RSCH|AN|OPS>
+why: <one line>
+what: <one line>
+owner: <name>
+status: open
+priority: P1
+kpi_primary: <main KPI moved>
+effort_size: S
+irreversibility: medium
+tooling_state: partial
+tooling_gaps: []
+deps_in: []
+deps_out: []
+gate_impacts: []
+risk_reduction: []
+unknowns:
+  - id: UNK-XXX01-01
+    text: <atomic question?>
+files_required: []
+notes: []
