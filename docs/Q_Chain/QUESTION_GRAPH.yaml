@@ -1,1 +1,4 @@
-edges: []
+spec_version: 1
+generated_by: scripts/qchain_graph_build.py
+question_edges: []
+node_edges: []

@@ -1,0 +1,32 @@
+name: QChain Validate
+on:
+  pull_request:
+    paths: ["q/**","docs/Q_Chain/**",".github/workflows/qchain-validate.yml","scripts/**"]
+  push:
+    branches: [ main ]
+    paths: ["q/**","docs/Q_Chain/**",".github/workflows/qchain-validate.yml","scripts/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+      - name: Validate nodes & questions
+        run: python scripts/qchain_validate.py
+      - name: Derive question graph
+        run: python scripts/qchain_graph_build.py
+      - name: Ensure derived graph is committed
+        shell: bash
+        run: |
+          if ! git diff --exit-code docs/Q_Chain/QUESTION_GRAPH.yaml >/dev/null; then
+            echo "::error::docs/Q_Chain/QUESTION_GRAPH.yaml was regenerated. Commit it to this PR."
+            git --no-pager diff -- docs/Q_Chain/QUESTION_GRAPH.yaml || true
+            exit 1
+          fi
