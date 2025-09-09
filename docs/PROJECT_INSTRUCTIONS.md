@@ -18,3 +18,14 @@ PRO consumes only files listed in `upload_exactly`. If PRO used extra context, i
 
 ## IDs & provenance
 Unknown IDs: UNK‑<NODE>‑NN (zero‑padded). Write a one‑line provenance note (source + date) into each affected node’s `notes[]`.
+---
+
+## Conversation Modes & Response Contracts (normative)
+
+- **MODE: FREE** — open exploration. End with a one‑line **Decision & Next Action**.
+- **MODE: FORM** — strict responses using the canonical forms below.
+  - **Strict‑form macro:**  
+    **STRICT-FORM ONLY — reply with ONE fenced YAML block using the requested top-level key. No prose outside the code fence. Unknowns → `null` with a brief note in `notes:`.**
+- **Canonical forms:** see `docs/CONVERSATION_PROTOCOL.md` and `docs/forms/*.schema.yaml`.
+- **Handshake pattern:** (1) Ack keys; (2) Payload‑only retry if needed.
+- **GUIDANCE role:** may ask ≤3 clarifying questions; otherwise must produce the requested strict form.
