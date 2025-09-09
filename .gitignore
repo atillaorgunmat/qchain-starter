@@ -1,3 +1,6 @@
 rci-2025-09-08-v2_add-only_bundle.zip
+docs/conversation-protocol-v1
 dist/
 *.zip
+backup/
+main
