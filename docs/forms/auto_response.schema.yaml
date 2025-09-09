@@ -1,0 +1,21 @@
+version: 1
+description: Canonical schema for AUTO → GUIDANCE responses under MODE: FORM.
+auto_response:
+  repo: "atillaorgunmat/qchain-starter"
+  commit_sha: null
+  pr_status: { open: [], merged: [] }
+  ci_checks: []                # [{pr, head_branch, conclusion}]
+  inventory:
+    nodes: []                  # [{id,title,owners,agenda,priority,questions:[]}]
+    questions: []              # [{id,owner_node,status,title,depends_on:[],missing_fields:[]}]
+  graph:
+    reverse_deps: []           # [{id, dependents}]
+  packs: []                    # [{id,name,rationale,includes:[]}]
+  clarifying_questions: []
+  upload_exactly:
+    pack_id: null
+    zip_name: null
+    manifest_lock: null
+    rebuild_one_liner: null
+  notes: []
+  errors: []

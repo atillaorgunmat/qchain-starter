@@ -1,0 +1,14 @@
+version: 1
+description: Canonical schema for GUIDANCE → PRO requests under MODE: FORM.
+pro_request:
+  pack_id: null
+  zip_name: null
+  acceptance:
+    - "Update only q/*.yaml in the ZIP: fill assumptions, failure_modes, acceptance, doc_refs."
+    - "Keep interrogative titles; adjust depends_on only if clearly missing."
+    - "Return add-only Idempotent Change Preview + gh issue one-liners (type:question, agenda:*, priority:*, q:<ID>)."
+    - "Use only the ZIP; if more context is needed, WARN and list exact files/sections for next cycle."
+  constraints:
+    - "No destructive edits."
+    - "QUESTION_GRAPH.yaml is derived by script; do not hand-edit."
+  notes: []

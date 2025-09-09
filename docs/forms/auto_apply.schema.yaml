@@ -1,0 +1,14 @@
+version: 1
+description: Canonical schema for GUIDANCE → AUTO apply instructions under MODE: FORM.
+auto_apply:
+  pack_id: null
+  branch: null
+  steps:
+    - "Regenerate graph from q/*.yaml"
+    - "Run validator (fail on structure/id/graph parity)"
+    - "Commit add-only changes"
+    - "Open PR with PR_BODY.md + CHECKS.md"
+  pr_title: null
+  pr_body_summary: null
+  labels: ["type:chore","qchain"]
+  notes: []
