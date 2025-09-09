@@ -1,5 +1,5 @@
 version: 1
-description: Canonical schema for GUIDANCE → PRO requests under MODE: FORM.
+description: "Canonical schema for GUIDANCE → PRO requests under MODE: FORM."
 pro_request:
   pack_id: null
   zip_name: null
