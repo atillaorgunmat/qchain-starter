@@ -1,5 +1,5 @@
 version: 1
-description: Canonical schema for PRO → GUIDANCE handoff packs under MODE: FORM.
+description: "Canonical schema for PRO → GUIDANCE handoff packs under MODE: FORM."
 pro_handoff:
   pack_id: null
   change_preview:
